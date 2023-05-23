@@ -1,0 +1,28 @@
+    algoritmo de pseudocodigo 
+ declaração 
+ lista[9];inteiro  vetor[1];inteiro
+  para i<-0 d ate 9	passo 1 faça
+ fila[0]<-10
+  
+  fim para
+	fim
+
+i=5
+fila[1]=pref
+fila[0]=pref
+
+fila[j+1]<-fila[j]
+
+
+para i<-0 ate 9 passo 1
+	se fila[i]=pref
+	para j<-i ate 0 passo -1
+	fila[j]<-fila[j-1]
+	fimpara
+	
+	fila[0]=pref
+fimpara
+	
+
+
+	 
